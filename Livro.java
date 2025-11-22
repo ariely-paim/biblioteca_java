@@ -41,7 +41,8 @@ public class Livro {
             return true;
         if (obj == null)
             return false;
-        if (!(obj instanceof Livro)) return false;
+        if (!(obj instanceof Livro)) 
+            return false;
         Livro livro = (Livro) obj;
         return titulo.equals(livro.titulo);
     }
@@ -53,7 +54,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return titulo + "\n" + autor + "\n" + ano + "\n";
+        return titulo + "\nTitulo: " + autor + "\nAutor: " + ano + "\nAno: ";
     }
 
 }
