@@ -23,6 +23,18 @@ public class Livro {
         return ano;
     }
 
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setAnoPublicacao(int ano) {
+        this.ano = ano;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
